@@ -1,0 +1,697 @@
+/* Body Editor */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Making of Custom Scroll bar  */
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+html ::-webkit-scrollbar{
+    width: 10px;
+
+}
+
+html ::-webkit-scrollbar-thumb
+{
+    background-color: #fff;
+    border-radius: 125px;
+}
+
+html ::-webkit-scrollbar-track
+{
+    background-color:  #1d2026;
+}
+
+/* Main Div page Editor */
+.h {
+    height: auto;
+    width: auto;
+    background-position-x: center;
+    background-size: auto;
+    color: white;
+    background-color: #1d2026;
+}
+
+/* Navigation Bar Editor */
+nav {
+    display: flex;
+    padding: 5px 25px;
+    align-items: center;
+    color: #fff;
+}
+
+/* Logo Image Editor */
+nav .i {
+    height: 100px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Navigation Bar Links Display in oneline*/
+nav ul {
+    text-align: right;
+    display: inline;
+    list-style: none;
+    flex: 1;
+}
+
+/* Navigation Bar List Editor */
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+/* 'Software Solution' Text Editor */
+.a {
+    padding-left: 40px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 0px;
+    text-align: left;
+    display: initial;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Main Page Editor  */
+.main {
+    margin-top: 3%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+/*Home Page Content(Content No 2)  */
+.c {
+    margin: 1%;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*Button Style Editor  */
+.b {
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    height: 60px;
+    margin: 2px auto;
+    background-color: green;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 35px;
+    border: 4px solid #fff;
+    font-family: sans-serif;
+    border-radius: 125px;
+}
+
+
+/*Button Effect  */
+.b:hover {
+    background: red;
+    color: red;
+    transition: 0.5s;
+}
+
+.ay {
+    color: #fff;
+}
+
+/*Animation for Header Links */
+.ay:hover {
+    transition: 0.5s;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+.hpp {
+    width: auto;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 25px;
+
+}
+
+.hpp:hover {
+    width: 1800px;
+    height: 500px;
+}
+
+.ayy {
+    font-size: 30px;
+    color: red;
+}
+
+/*Animation for Header Links */
+.y:hover {
+    transition: 0.5s;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Button Underline Remover */
+.v {
+    text-decoration: none;
+    padding: 5px;
+    background-color: transparent;
+}
+
+
+/*Anchor Tag Underline Remover */
+a {
+    text-decoration: none;
+}
+
+/*Class property for h1 heading tag in every page. */
+.main1 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+/*Page No 2 'Services' list Editior */
+#g {
+    margin: 4% auto;
+    text-align: left;
+    text-decoration: none;
+    font-size: 30px;
+    list-style: none;
+    padding-left: 50px;
+
+}
+
+.jj {
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+    padding: 25px;
+}
+
+
+/* Home Page Image Animation Editor */
+.k {
+    border-radius: 20px;
+    margin: 2.5% auto;
+    height: 500px;
+    background-color: transparent;
+    width: 1000px;
+}
+
+
+.tps {
+    border-radius: 25px;
+    width: 1500px;
+    height: auto;
+    margin: 2.5%;
+}
+
+.tps:hover {
+    border-radius: 25px;
+    width: 1700px;
+    height: auto;
+    margin: 2.5%;
+
+}
+
+/* Footer css */
+
+footer {
+    margin-top: 5%;
+    width: 99%;
+    position: bottom;
+    bottom: 0;
+    background: linear-gradient(grey, white, white, white, white, white, grey);
+    padding: 100px 0 20px;
+    font-size: 13px;
+    display: inline-flex;
+    line-height: 25px;
+    border-radius: 100px;
+
+}
+
+.row {
+    width: 80%;
+    margin: 2%;
+    margin-left: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.flogo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 0%;
+    border-radius: 125px;
+    background-color: transparent;
+}
+
+.col h2 {
+    margin-left: 4%;
+    color: transparent;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    animation: effect 6s linear infinite;
+
+}
+
+.col h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: transparent;
+    animation: effect 6s linear infinite;
+
+}
+
+@keyframes effect {
+    0% {
+        color: navy;
+    }
+
+    50% {
+        color: red;
+    }
+
+    100% {
+        color: blue;
+    }
+}
+
+.fimg {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 5%;
+}
+
+
+.col {
+    flex-basis: 5%;
+    padding: 10px;
+    font-size: 15px;
+    color: #fff;
+    background-color: transparent;
+
+}
+
+.col h3 {
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.col ul {
+
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.col p {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.col li {
+    color: black;
+}
+
+.col b {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.ph {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col li:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.ABS {
+    height: auto;
+    width: auto;
+    border-radius: 125px;
+    margin: 5%;
+}
+
+/* Footer Follow US Logo  */
+
+.FollowUS {
+    border-radius: 125px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.FollowUS:hover {
+    width: 60px;
+    height: 60px;
+
+}
+
+
+/*   PAGE NO 2 SERVICES CSS */
+
+.cards {
+    display: inline-block;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding: 5px;
+    width: 403px;
+    height: 700px;
+    background-color: #fff;
+    color: black;
+    border-radius: 25px;
+    box-shadow: #fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 5px white;
+}
+
+.Ami {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 1.5%;
+    align-items: center;
+}
+
+.title {
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.But {
+    margin-top: 15%;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    border: 3px solid black;
+    position: relative;
+}
+
+.But::before,
+.But::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: all .5s;
+}
+
+.But::before {
+    top: -15px;
+    left: -15px;
+    border-width: 3px 0 0 3px;
+}
+
+.But::after {
+    bottom: -15px;
+    right: -15px;
+    border-width: 0 3px 3px 0;
+}
+
+.But:hover::before,
+.But:hover::after {
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
+}
+
+.But:hover {
+    background-color: black;
+    color: #fff;
+}
+
+
+.services-we-offer .content-right ul li a {
+    color: #252b33;
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.slogo {
+    width: 40px;
+    height: 40px;
+}
+
+.TechName {
+    padding-left: 10px;
+}
+
+.Stable {
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 5px;
+
+}
+
+.ttdd {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+/*   Page Webstie Development CSS */
+
+.ca {
+    width: 1800px;
+    height: auto;
+    margin-bottom: 5%;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.caa {
+    width: 1800px;
+    height: auto;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.caa h1 {
+    margin-left: 5px;
+    text-align: left;
+    font-size: 30px;
+    color: orange;
+}
+
+.caaa {
+    color: white;
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.Video {
+    width: 980px;
+    height: 550px;
+    border-radius: 25px;
+    margin: 2%;
+}
+
+.Butt {
+    margin-top: 5%;
+    text-decoration: none;
+    font-size: 18px;
+    width: 200px;
+    height: 60px;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    border: 5px solid white;
+    position: relative;
+}
+
+.Butt::before,
+.Butt::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: all .5s;
+}
+
+.Butt::before {
+    top: -15px;
+    left: -15px;
+    border-width: 3px 0 0 3px;
+}
+
+.Butt::after {
+    bottom: -15px;
+    right: -15px;
+    border-width: 0 3px 3px 0;
+}
+
+.Butt:hover::before,
+.Butt:hover::after {
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
+}
+
+.Butt:hover {
+    background-color: black;
+    color: #fff;
+}
+
+
+
+/* properties for Outside for form  */
+.FromOutside {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('Images/Sub Pages/ENF.jpg');
+    border-radius: 125px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Form {
+    max-width: 1000px;
+    width: 100%;
+    background: transparent;
+    padding: 30px 300px;
+    color: white;
+
+}
+
+.From_Title {
+    font-size: 35px;
+    font-weight: 900;
+    flex: auto;
+    margin-bottom: 8%;
+    margin-top: 10%;
+
+}
+
+.Form form .Userdetails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .Userdetails .InputBox {
+    margin: 20px 0 12px 0;
+    width: calc(100% / 2 - 20px);
+
+}
+
+.Userdetails .InputBox .Details {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2%;
+    text-align: left;
+}
+
+
+.Userdetails .InputBox input {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.InputBox select {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: red;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.InputBox select option {
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.InputBox .message {
+    height: 90px;
+    width: 100%;
+}
+
+
+.main2 {
+    font-size: 50px;
+    margin-bottom: 2%;
+}
+
+
+
+.ul1 {
+    text-align: left;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.c1 {
+    word-spacing: 20px;
+}
+
+
+
+.CS {
+    width: 1700px;
+    height: 650px;
+    border-radius: 25px;
+    margin-bottom: 5%;
+}
